@@ -149,6 +149,29 @@ int main()
 			std::cout << "There are no Es in rest of the world" << std::endl;
 		}
 	}
+	if (letter == 'f' || letter == 'F') // written by Pavlo
+	{
+		if (region == 1)
+		{
+			std::cout << "Falkland Islands, French Guiana" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Faroe Islands, Finland, France" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Fs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "French Southern Territories" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Fiji, French Polynesia" << std::endl;
+		}
+	}
 	if (letter == 'v' || letter == 'V') // Written By Ciaran Kinsella
 	{
 		if (region == 1)
