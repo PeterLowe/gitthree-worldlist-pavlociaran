@@ -22,8 +22,15 @@ int main()
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
 	}
+<<<<<<< HEAD
 	std::cout << "Pick a letter from A to D or W to Z" << std::endl; // change this line each iteration
+=======
+
+
+	std::cout << "Pick a letter from A to C or V to Z" << std::endl; // change this line each iteration
+>>>>>>> 130d782a4febc90ab47e38ec862dd67d4ae7567c
 	std::cin >> letter;
+
 	if (letter < 'A' || letter > 'Z') // not a capital letter
 	{ 
 		if (letter < 'a' || letter > 'z') // not a lower case letter
@@ -78,6 +85,7 @@ int main()
 			std::cout << "There are no Bs in rest of the world" << std::endl;
 		}
 	}
+
 	if (letter == 'c' || letter == 'C') // written by Pavlo
 	{
 		if (region == 1)
@@ -101,6 +109,7 @@ int main()
 			std::cout << "Cayman Islands, Cocos (Keeling) Islands, Cook Islands, Cuba" << std::endl;
 		}
 	}
+<<<<<<< HEAD
 	if (letter == 'd' || letter == 'D') // written by Pavlo
 	{
 		if (region == 1)
@@ -124,6 +133,35 @@ int main()
 			std::cout << "Dominica, Dominican Republic" << std::endl;
 		}
 	}
+=======
+
+	if (letter == 'v' || letter == 'V') // Written By Ciaran Kinsella
+	{
+		if (region == 1)
+		{
+			std::cout << "Venezuela, Virgin Islands (U.S.)" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Vatican City State" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Vs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Vanuatu, Virgin Islands (British)" << std::endl;
+		}
+
+	}
+
+
+>>>>>>> 130d782a4febc90ab47e38ec862dd67d4ae7567c
 	if (letter == 'w' || letter == 'W') // Written By Ciaran Kinsella
 	{
 		if (region == 1)
