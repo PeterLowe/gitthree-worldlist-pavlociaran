@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to H or R to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to I or R to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -222,6 +222,30 @@ int main()
 		if (region == 5)
 		{
 			std::cout << "Haiti" << std::endl;
+		}
+	}
+
+	if (letter == 'i' || letter == 'I') // written by Pavlo
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Is in Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Iceland, Ireland, Italy" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Ivory Coast" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "India, Indonesia, Iran, Iraq, Israel" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "There are no Is in rest of the world" << std::endl;
 		}
 	}
 
