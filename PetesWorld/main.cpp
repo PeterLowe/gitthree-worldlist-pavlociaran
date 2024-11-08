@@ -56,6 +56,29 @@ int main()
 		}
 	}	
 
+	if (letter == 'w' || letter == 'W') // Written By Ciaran Kinsella
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Ws in the Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "There are no Ws in Europe" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Western Sahara" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Ws is Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Wallis and Futuna Islands" << std::endl;
+		}
+
 	if (letter == 'y' || letter == 'Y') // Written By Ciaran Kinsella
 	{
 		if (region == 1)
