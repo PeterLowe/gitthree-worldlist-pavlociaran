@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to E or U to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to F or U to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -153,6 +153,30 @@ int main()
 		}
 	}
 
+	if (letter == 'f' || letter == 'F') // written by Pavlo
+	{
+		if (region == 1)
+		{
+			std::cout << "Falkland Islands, French Guiana" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Faroe Islands, Finland, France" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There are no Fs in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "French Southern Territories" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Fiji, French Polynesia" << std::endl;
+		}
+	}
+
 	if (letter == 't' || letter == 'T') // Written By Ciaran Kinsella
 	{
 		if (region == 1)
@@ -202,7 +226,6 @@ int main()
 		}
 
 	}
-
 	if (letter == 'v' || letter == 'V') // Written By Ciaran Kinsella
 	{
 		if (region == 1)
