@@ -4,7 +4,7 @@
 // Author Ciaran Kinsella
 // Author Pavlo Konovchenko
 // estimated time 120 minutes
-// actual time ??
+// actual time 120 mins
 // version 1.0
 
 
@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to J or Q to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to J or P to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -272,6 +272,31 @@ int main()
 		}
 	}
 
+	if (letter == 'p' || letter == 'P') // Written By Ciaran Kinsella
+	{
+		if (region == 1)
+		{
+			std::cout << "Panama, Paraguay, Peru" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Poland, Portugal" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "No Qs is Americas" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Pakistan, Palestinian, Philippines" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Palau, Papua New Guinea, Pitcairn Island, Puerto Rico" << std::endl;
+		}
+
+	}
+
 	if (letter == 'q' || letter == 'Q') // Written By Ciaran Kinsella
 	{
 		if (region == 1)
@@ -280,11 +305,11 @@ int main()
 		}
 		if (region == 2)
 		{
-			std::cout << "No Qs is Americas" << std::endl;
+			std::cout << "No Qs is Europa" << std::endl;
 		}
 		if (region == 3)
 		{
-			std::cout << "No Qs is Americas" << std::endl;
+			std::cout << "No Qs is Africa" << std::endl;
 		}
 		if (region == 4)
 		{
