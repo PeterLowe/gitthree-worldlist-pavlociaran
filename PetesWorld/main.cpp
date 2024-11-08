@@ -21,10 +21,8 @@ int main()
 	{
 		std::cout << "You need to select a number between 1 and 5" << std::endl;
 		return 0;
-	}
 
-
-	std::cout << "Pick a letter from A to C or U to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to D or U to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -106,6 +104,30 @@ int main()
 		}
 	}
 
+	if (letter == 'd' || letter == 'D') // written by Pavlo
+	{
+		if (region == 1)
+		{
+			std::cout << "There are no Ds in Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Denmark" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Djibouti" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "There are no Ds in Asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Dominica, Dominican Republic" << std::endl;
+		}
+	}
+
 	if (letter == 'u' || letter == 'U') // Written By Ciaran Kinsella
 	{
 		if (region == 1)
@@ -155,7 +177,6 @@ int main()
 		}
 
 	}
-
 
 	if (letter == 'w' || letter == 'W') // Written By Ciaran Kinsella
 	{
