@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to H or S to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to H or R to Z" << std::endl; // change this line each iteration
 	std::cin >> letter;
 
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -223,6 +223,31 @@ int main()
 		{
 			std::cout << "Haiti" << std::endl;
 		}
+	}
+
+	if (letter == 'r' || letter == 'R') // Written By Ciaran Kinsella
+	{
+		if (region == 1)
+		{
+			std::cout << "No Rs is Americas" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Romania, Russian Federation" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Reunion Island, Rwanda" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "No Rs is asia" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "No Rs in rest of world" << std::endl;
+		}
+
 	}
 
 	if (letter == 's' || letter == 'S') // Written By Ciaran Kinsella
