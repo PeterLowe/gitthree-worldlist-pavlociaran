@@ -153,6 +153,31 @@ int main()
 		}
 	}
 
+	if (letter == 't' || letter == 'T') // Written By Ciaran Kinsella
+	{
+		if (region == 1)
+		{
+			std::cout << "Trinidad and Tobago" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Turkey" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "Tanzania, Togo, Tunisia" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Taiwan, Tajikistan, Thailand, Tibet, Timor-Leste, Turkmenistan" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Tokelau, Tonga, Turkmenistan, Tuvalu" << std::endl;
+		}
+
+	}
+
 	if (letter == 'u' || letter == 'U') // Written By Ciaran Kinsella
 	{
 		if (region == 1)
